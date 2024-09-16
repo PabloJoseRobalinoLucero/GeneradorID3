@@ -29,6 +29,7 @@ body {
 }
 
 .generador {
+    width: 100%;
     & h1 {
         text-align: center;
     }
@@ -102,4 +103,17 @@ input {
 .limpiar {
     width: 100%;
     margin: 7vh 0;
+}
+
+
+.no-generada {
+    color: grey;
+}
+
+.segura {
+    color: lightgreen;
+}
+
+.insegura {
+    color: red;
 }
