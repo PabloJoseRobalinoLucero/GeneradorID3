@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="separador">
+            <div class="generador">
+                <h1>
+                    Generador <span class="texto-azul">de Contraseñas</span>
+                </h1>
+                <div class="cantidad">
+                    <div class="field">
+                        <label>Cantidad</label>
+                        <input type="number" id="cantidad" value="6"/>
+                    </div>
+                    <button id="generar" onclick="generar()">Generar</button>
+                </div>
+                <input type="text" class="contrasena" placeholder="Contraseña" readonly id="contrasena"/>
+            </div>
+            <div class="icono">
+                <object data="./assets/candado.svg" type="image/svg+xml"></object>
+            </div>
+        </div>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
