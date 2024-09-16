@@ -18,3 +18,7 @@ function generar() {
 
     contrasena.value = password
 }
+
+function limpiar() {
+    contrasena.value = ""
+}
