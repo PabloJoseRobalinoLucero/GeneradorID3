@@ -1,7 +1,7 @@
 let cantidad = document.getElementById("cantidad")
 let contrasena = document.getElementById("contrasena")
 
-const cadenaCaracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+const cadenaCaracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()"
 
 function generar() {
     let numeroDigitado = parseInt(cantidad.value)
