@@ -20,10 +20,9 @@ function generar() {
             let caracterAleatorio = cadenaCaracteres[Math.floor(Math.random() * cadenaCaracteres.length)]
             password += caracterAleatorio
         }
+        contrasena.value = password
+        reconocerSeguridad(password)
     }
-
-    contrasena.value = password
-    reconocerSeguridad(password)
 }
 
 function limpiar() {
